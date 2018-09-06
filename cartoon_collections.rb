@@ -11,10 +11,9 @@ end
 
 def long_planeteer_calls(planateer_calls)
   planateer_calls.any? {|call| call.length > 4}
-  # Your code here
-end
+  end
 
-def find_the_cheese# code an argument here
+def find_the_cheese
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
