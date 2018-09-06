@@ -13,11 +13,11 @@ def long_planeteer_calls(planateer_calls)
   planateer_calls.any? {|call| call.length > 4}
   end
 
-def find_the_cheese(cheese)
+def find_the_cheese(potentilly_cheesy_items)
   cheeses = %w(gouda cheddar camembert)
   
-  cheese.find do |maybe|
-    cheese.include?(maybe)
+    potentilly_cheesy_items.find do |maybe|
+    potentilly_cheesy_items.include?(maybe)
   
 end
 end
