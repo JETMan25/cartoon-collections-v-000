@@ -5,7 +5,7 @@ dwarves.each.with_index(1) do |dwarf, index|
   end
 
 def summon_captain_planet(planateer_calls)
-  planateer_calls.map {|call| call.capualize + "!"}
+  planateer_calls.map {|call| call.capitalize + "!"}
  
 end
 
